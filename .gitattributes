@@ -1,3 +1,5 @@
+artifacts/*.pth filter=lfs diff=lfs merge=lfs -text
+logs/*.txt filter=lfs diff=lfs merge=lfs -text
 artifacts/vae_state.pth filter=lfs diff=lfs merge=lfs -text
 logs/ShapeNet_sha256_2025-06-04.txt filter=lfs diff=lfs merge=lfs -text
 logs/stanford2d3ds_sha256_2025-06-04.txt filter=lfs diff=lfs merge=lfs -text
