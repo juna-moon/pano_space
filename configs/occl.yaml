@@ -1,0 +1,8 @@
+mkdir -p configs
+
+cat > configs/occl.yaml << 'EOF'
+# Occlusion filter parameters
+delta: 0.15           # depth 차이 임계값 (m)
+partial_thr: 0.25     # Partial occlusion IoU 비율
+full_thr: 0.95        # Full occlusion IoU 비율
+EOF

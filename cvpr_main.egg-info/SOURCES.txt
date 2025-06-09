@@ -1,0 +1,12 @@
+README.md
+setup.py
+cvpr_main.egg-info/PKG-INFO
+cvpr_main.egg-info/SOURCES.txt
+cvpr_main.egg-info/dependency_links.txt
+cvpr_main.egg-info/top_level.txt
+data_loaders/__init__.py
+data_loaders/base.py
+data_loaders/capture.py
+data_loaders/muva_ais.py
+data_loaders/stanford2d3ds.py
+tests/test_dataloaders.py
